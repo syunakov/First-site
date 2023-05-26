@@ -1,0 +1,131 @@
+/* Загальні стилі */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Стилі для шапки */
+  header {
+    background-color: #F5F5F5;
+    padding: 20px}
+
+    /* Стили для навігаційного меню */
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4A4A4A;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    }
+    
+    nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    }
+    
+    nav a:hover {
+    text-decoration: underline;
+    }
+    
+    /* Стили  розділу "О нас" */
+    #about {
+    background-color: #FFFFFF;
+    padding: 50px 0;
+    }
+    
+    #about h2 {
+    text-align: center;
+    }
+    
+    #about p {
+    text-align: justify;
+    line-height: 1.5;
+    }
+    
+    #about img {
+    float: left;
+    margin-right: 20px;
+    }
+    
+    /* Стилі для розділу "Меню" */
+    #menu {
+    background-color: #F5F5F5;
+    padding: 50px 0;
+    }
+    
+    .menu-item {
+    display: flex;
+    margin-bottom: 20px;
+    }
+    
+    .menu-item-image {
+    max-width: 300px;
+    margin-right: 20px;
+    }
+    
+    .menu-item-description {
+    flex: 1;
+    }
+    
+    .menu-item h3 {
+    margin-top: 0;
+    }
+    
+    .menu-item-price {
+    font-weight: bold;
+    }
+    
+    /* Стилі для розділу "Контакти" */
+    #contact {
+    background-color: #FFFFFF;
+    padding: 50px 0;
+    }
+    
+    form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    }
+    
+    form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    }
+    
+    form button {
+    padding: 10px 20px;
+    background-color: #4A4A4A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    form button:hover {
+    background-color: #333333;
+    }
